@@ -16,7 +16,7 @@ const orderSchema = mongoose.Schema({
   order_cart: [
     { product_id: String, description: String, total_units: Number },
   ],
-  order_status: { type: String, uppercase: true },
+  order_status: { type: String,default: "order created", uppercase: true },
   payment_status: {type: String}
 });
 

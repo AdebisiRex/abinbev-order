@@ -10,7 +10,7 @@ const PORT = process.env.PORT
 
 app.get('/', (req, res)=>{
     console.log ("We are connected")
-    res.send({message: "aiit, let's do this"})
+    res.send({message: "Welcome to the order microservice"})
 })
 
 app.listen(PORT, (req, res)=>{
